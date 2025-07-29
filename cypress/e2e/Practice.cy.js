@@ -1,0 +1,10 @@
+describe('',()=>{
+    it('Test1',()=>{
+        cy.visit("www.google.com")
+        cy.title().should('eq','Google')
+    })
+    it('Test2',()=>{
+        cy.visit("www.google.in")
+        cy.title().should('eq','Google')
+    })
+})
