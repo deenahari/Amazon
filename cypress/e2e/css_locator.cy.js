@@ -38,3 +38,5 @@ describe('CSS Locator',()=>{
         cy.get('[class="complete-header"]').should('contain'),('Thank you for your order!')
     })
 })
+
+//Conflict
